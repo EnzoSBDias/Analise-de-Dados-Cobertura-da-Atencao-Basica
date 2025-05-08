@@ -30,4 +30,29 @@ Este projeto tem como objetivo explorar e analisar dados relacionados à cobertu
 
 - **Recursos Humanos**
   - `carga_horaria_medica_atencao_basica_tradicional`: Total de horas de trabalho médico.
-  - `carga_horaria_enfermagem_atencao_basica_tradicional`: Total_
+  - `carga_horaria_enfermagem_atencao_basica_tradicional`: Total de horas de trabalho de enfermagem.
+  - `quantidade_equipes_saude_familia`, `quantidade_equipes_atencao_basica_total`: Número de equipes em atuação.
+
+---
+
+## 🛠️ Ferramentas e Tecnologias
+
+- Python (Análise de dados)
+- Pandas (Manipulação de dados)
+- Matplotlib e Seaborn (Visualizações gráficas)
+- Jupyter Notebook (Ambiente interativo)
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são muito bem-vindas! Sinta-se à vontade para:
+
+- Abrir **issues** com sugestões ou dúvidas
+- Criar **pull requests** com correções, melhorias ou novas análises
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
