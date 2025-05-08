@@ -1,35 +1,33 @@
-# Análise da Cobertura da Atenção Básica no Brasil
+# 📊 Análise da Cobertura da Atenção Básica no Brasil
 
-Este projeto tem como objetivo explorar e analisar dados sobre a cobertura da Atenção Básica no Brasil, com foco no monitoramento da atuação das equipes de saúde da família (eSF) e das equipes de Atenção Básica (eAB). A base de dados utilizada traz informações populacionais e operacionais importantes para compreender o acesso da população aos serviços essenciais de saúde ofertados pelo SUS.
+Este projeto tem como objetivo explorar e analisar dados relacionados à cobertura da Atenção Básica no Brasil, com foco na atuação das **Equipes de Saúde da Família (eSF)** e das **Equipes de Atenção Básica (eAB)**. A análise visa compreender o acesso da população aos serviços essenciais de saúde oferecidos pelo SUS, com base em informações populacionais e operacionais.
 
-## Objetivos da Análise
+---
 
-- Avaliar a evolução da cobertura populacional ao longo do tempo por município e estado.
-- Analisar a distribuição das equipes de saúde e suas cargas horárias.
-- Investigar a relação entre a população total e a população efetivamente coberta pelos serviços.
-- Comparar a cobertura entre a estratégia de saúde da família e a atenção básica como um todo.
+## 🎯 Objetivos da Análise
 
-## Principais Colunas da Base de Dados
+- 📈 Avaliar a evolução da cobertura populacional ao longo do tempo, por município e estado.
+- 🏥 Analisar a distribuição das equipes de saúde e suas respectivas cargas horárias.
+- 🔍 Investigar a relação entre a população total e a população efetivamente coberta pelos serviços.
+- ⚖️ Comparar a cobertura entre a Estratégia Saúde da Família e a Atenção Básica como um todo.
 
-- `ano`, `mes`: Período de referência da informação.
-- `id_municipio`, `sigla_uf`: Identificadores geográficos.
-- `populacao`: População total estimada do município.
-- `populacao_coberta_estrategia_saude_familia`, `populacao_coberta_total_atencao_basica`: Cobertura populacional pelos serviços.
-- `proporcao_cobertura_estrategia_saude_familia`, `proporcao_cobertura_total_atencao_basica`: Percentual da população coberta.
-- `carga_horaria_medica_atencao_basica_tradicional`, `carga_horaria_enfermagem_atencao_basica_tradicional`: Total de horas trabalhadas por médicos e enfermeiros.
-- `quantidade_equipes_saude_familia`, `quantidade_equipes_atencao_basica_total` (e variações): Quantidade de equipes atuantes.
+---
 
-## Ferramentas Utilizadas
+## 🧾 Descrição das Principais Variáveis
 
-- Python
-- Pandas
-- Matplotlib / Seaborn (para visualizações)
-- Jupyter Notebook
+- **Período**
+  - `ano`, `mes`: Indicam o período de referência das informações.
+  
+- **Geolocalização**
+  - `id_municipio`, `sigla_uf`: Identificadores do município e estado.
 
-## Contribuição
+- **Cobertura Populacional**
+  - `populacao`: População total estimada.
+  - `populacao_coberta_estrategia_saude_familia`: Total de pessoas cobertas pela Estratégia Saúde da Família.
+  - `populacao_coberta_total_atencao_basica`: Total coberto por toda a Atenção Básica.
+  - `proporcao_cobertura_estrategia_saude_familia`: Percentual de cobertura pela eSF.
+  - `proporcao_cobertura_total_atencao_basica`: Percentual de cobertura pela AB.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com sugestões de melhorias ou novas análises.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+- **Recursos Humanos**
+  - `carga_horaria_medica_atencao_basica_tradicional`: Total de horas de trabalho médico.
+  - `carga_horaria_enfermagem_atencao_basica_tradicional`: Total_
